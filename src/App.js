@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
+
+
+import "./App.css";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="title" > Not a portfolio 😋 </div>
+      <h1> Currently</h1>
+      <div>
+      <ul>Grinding Leetcode</ul>
+      <ul><b>Groovr</b> - Meet people based on similar music taste. </ul>
+      </div>
+      <h1> Worked on</h1>
+      <ul>Listify</ul>
+      <ul>Discord Football Bot</ul>
+      <h1>I am </h1>
     </div>
   );
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 
 export default App;
