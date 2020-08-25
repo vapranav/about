@@ -7,9 +7,13 @@ import "./App.css";
 function App() {
 
   return (
-    <Fade bottom>
-        <div className="App">
-        <div className="title" > Not a portfolio 😋 </div>
+    <div>
+      <div className="title" > Not a portfolio 😋 </div>
+      <div className="quote">
+        <h1>"Do not be sorry. Be better." </h1>
+        <div>-Kratos</div>
+      </div>
+      <Fade bottom>
         <h1><span className="highlight">Currently</span></h1>
         <div>
         <ul>Grinding Leetcode</ul>
@@ -19,8 +23,9 @@ function App() {
         <ul>Listify</ul>
         <ul>Discord Football Bot</ul>
         <h1>I am </h1>
-      </div>
     </Fade>
+    </div>
+    
     
   );
 }

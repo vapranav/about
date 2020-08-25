@@ -22,3 +22,12 @@ ul{
 .highlight {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #00CED1 50%);
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+  text-align: center; 
+}
