@@ -10,8 +10,8 @@ function App() {
     <div>
       <div className="title" > Not a portfolio 😋 </div>
       <div className="quote">
-        <h1>"Do not be sorry. Be better." </h1>
-        <div>-Kratos</div>
+        <h1>"Your boos mean <span className="nothing">nothing</span>, I've seen what makes you cheer. " </h1>
+        <div>-Rick Sanchez</div>
       </div>
       <Fade bottom>
         <h1><span className="highlight">Currently</span></h1>
